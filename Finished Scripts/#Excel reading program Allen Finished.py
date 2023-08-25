@@ -3,6 +3,8 @@ import pandas as pd
 import openpyxl
 import numpy as np
 import copy
+
+#REMEMBER!!! you need to move the ids to the last row, since they cant be in the front atleast not in its current version
 #Set the file path
 Hierarchy = pd.read_excel(r'C:\Users\mats_\Desktop\Ebrains\AllanBrain\ABAHier2017.xlsx')
 #Write the version number of the hierarchy
